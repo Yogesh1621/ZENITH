@@ -8,8 +8,14 @@ h2 {
 
 p {
     color: green;
+    background-color: yellow;
 }
 
 .special-text {
     color: aqua;
+}
+
+span {
+    color: beige;
+    background-color: red;
 }
