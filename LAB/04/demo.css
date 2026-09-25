@@ -3,11 +3,13 @@
 }
 a{
     text-decoration: none;
-    color: rebeccapurple;
+    color: rgb(154, 87, 154);
+    font-size: 25px;
 }
 .playwrite-be-wal-guides-regular {
   font-family: "Playwrite BE WAL Guides", cursive;
   font-weight: 500;
   font-style: normal;
   font-size: 25px;
+  color:rgb(209, 3, 3);
 }
