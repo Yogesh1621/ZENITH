@@ -1,0 +1,23 @@
+div {
+    background-color: aqua;
+    height: 200px;
+    width: 400px;
+    padding: 24px;
+}
+
+h1 {
+    background-color: bisque;
+    padding: 8px;
+}
+
+p {
+    background-color: bisque;
+    padding: 8px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
