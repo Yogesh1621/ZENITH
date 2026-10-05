@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    padding: 24px;
+    border: 2px solid brown;
+    background-color: yellow;
+    width: fit-content;
+    position: relative;
+}
+
+#quote-1{
+    font-size: 40px;
+    position: absolute;
+    left: 185px;
+    top: 25px;
+    text-shadow: red 2px 2px;
+}
