@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    padding: 24px;
+    background-color: yellow;
+
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+
+    /* gap: 50px; */
+    row-gap: 20px;
+    column-gap: 20px;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.child {
+    padding: 24px;
+    background-color: red;
+    border: 10px solid black;
+}

@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 20px;
+    background-color: orange;
+}
+
+.card.big {
+    background-color: green;
+}
+
+.big.bg-green {
+    background-color: blue;
+}
+
+p.text-underline {
+    text-decoration: underline;
+    color: aqua;
+}

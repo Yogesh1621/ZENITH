@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+#box1 {
+    width: 100vw;
+    height: 250px;
+    padding: 48px;
+    background-color: red;
+}
+
+#box2 {
+    width: 100vw;
+    height: 250px;
+    padding: 48px;
+    background-color: black;
+}
+
