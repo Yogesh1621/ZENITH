@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+div{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3nCp671F7Qi5tkEGk2f-D37wjCMt31vTyOsLs2c3LCQ&s=10");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border: 2px solid red;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    /* opacity: 0.5; */
+}
