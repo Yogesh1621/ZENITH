@@ -44,13 +44,40 @@
 
 // --------------------------------------------------------------
 
-const product = {
-    title: "Monitor",
-    price: 7000,
+// const product = {
+//     title: "Monitor",
+//     price: 7000,
+// };
+
+// const keyboard = product;
+
+// keyboard.title = "Keyboard";
+// console.log(keyboard);
+// console.log(product);
+
+// --------------------------------------------------------------
+
+// ARRAY
+const fruitsArr = ["Mango", "Grapes"];
+console.log(fruitsArr);
+
+const fruitsObj = {
+    0: "Mango",
+    1: "Grapes",
 };
+console.log(fruitsObj);
 
-const keyboard = product;
+console.log(typeof fruitsArr);
+console.log(typeof fruitsObj);
 
-keyboard.title = "Keyboard";
-console.log(keyboard);
-console.log(product);
+// READ
+console.log(fruitsArr[0]);
+console.log(fruitsObj[0]);
+
+// CREATE
+// fruitsArr[20] = "Apple";
+// fruitsObj[20] = "Apple";
+// console.log(fruitsArr);
+// console.log(fruitsObj);
+fruitsArr.push("Apple");
+console.log(fruitsArr);
